@@ -1,0 +1,1256 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+.header-section{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+
+.header-section .main-menu{
+	width: 100%;
+}
+
+.main-menu .bg-light{
+	background: transparent !important;
+}
+
+.main-menu .navbar-brand img{
+    max-width: 115px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #511de5;
+    background: url(../images/layer.png) center bottom no-repeat;
+    background-size: contain;
+    font-size: 16px;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #511de5;
+    background: url(../images/layer.png) center bottom no-repeat;
+    background-size: contain;
+}
+
+.main-menu .navbar-light .btn-link{
+	color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.main-menu .navbar-light .btn-link:hover{
+	text-decoration: none;
+	color: #511de5;
+}
+
+.main-menu .navbar-light .btn-outline-success{
+	color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 7px 35px;
+    border-radius: 45px;
+    background: linear-gradient(45deg, #511de5, #0f86fa);
+    transition: 1s;
+}
+
+.main-menu .navbar-light .btn-outline-success:hover, .main-menu .navbar-light .btn-outline-success:focus{
+	color: #000;
+	background: transparent;
+}
+
+.banner{
+	width: 100%;
+	padding: 180px 0px;
+}
+
+.inner-banner{
+	width: 100%;
+	padding: 90px 0px;
+	text-align: right;
+
+}
+
+
+.inner-banner h1{
+	  font-size: 58px;
+    line-height: 68px;
+    font-weight: 900;
+    text-align: left;
+    margin-right: 46px;
+}
+
+.inner-banner h1 span{
+	color: #511de5;
+}
+
+.inner-banner .btn-primary{
+    float: right;
+    margin-right: 45px;
+    margin-top: 17px;
+    font-size: 14px;
+    letter-spacing: 5px;
+    color: #252f31;
+    font-weight: 600;
+    padding: 11px 15px 11px 33px;
+    text-transform: uppercase;
+    background: #f2f2f2;
+    border: 0px solid #f2f2f2;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.inner-banner .btn-primary:hover, .inner-banner .btn-primary:focus{
+	background: transparent;
+}
+
+.header-section .btn-primary .fa-long-arrow-right {
+    margin-left: 10px;
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /**************************/
+
+  	.navbar-light .navbar-nav .active>.nav-link {
+    color: #511de5;
+    background: url(../images/layer.png) left bottom no-repeat;
+    background-size: auto;
+}
+  .banner{
+  		padding: 35px 0px;
+	  }
+  	.inner-banner{
+  		padding: 00px 0px;
+
+	  }
+
+    .header-section .banner h1{
+        font-size: 16px;
+    line-height: 26px;
+    margin-top: -70px;
+    text-align: center;
+      }
+
+    .inner-banner .btn-primary{
+  	   font-size: 9px;
+    padding: 5px 7px;
+    margin-right: 86px;
+    margin-top: -7px;
+    }
+
+
+  /**************************/
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.navbar-light .navbar-nav .active>.nav-link {
+    color: #511de5;
+    background: url(../images/layer.png) left bottom no-repeat;
+    background-size: auto;
+}
+
+	.navbar-light .navbar-nav .nav-link:hover{
+	color: #511de5;
+    background: url(../images/layer.png) left bottom no-repeat;
+    background-size: auto;
+    }
+
+	.banner{
+  		padding: 20px 0px;
+	  }
+  	.inner-banner{
+  		padding: 00px 0px;
+
+	  }
+
+    .inner-banner h1{
+    font-size: 30px;
+    line-height: 34px;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: -35px;
+      }
+
+    .inner-banner .btn-primary{
+    font-size: 8px;
+    padding: 5px 9px;
+    margin-right: 167px;
+    margin-top: 0px;
+    }
+
+  
+  /* CSS */
+  
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .navbar-light .navbar-nav .active>.nav-link {
+    color: #511de5;
+    background: url(../images/layer.png) left bottom no-repeat;
+    background-size: auto;
+}
+
+    .banner{
+  		padding: 70px 0px;
+	  }
+  	.inner-banner{
+  		padding: 20px 0px;
+
+	  }
+
+    .inner-banner h1{
+        font-size: 32px;
+    	line-height: 36px;
+          margin-top: -23px;
+      }
+
+    .inner-banner .btn-primary{
+  	       font-size: 14px;
+    padding: 6px 28px;
+    margin-top: 9px;
+    margin-right: 67px;
+  }
+
+}
+
+/*highliht start*/
+
+.highlight{
+	width: 100%;
+	padding: 70px 0px;
+	background: url("../images/area.png") center top no-repeat;
+	background-size: cover;
+}
+
+.inner-image img{
+    position: absolute;
+    top: -143px;
+}
+
+.inner-image h2{
+	font-size: 23px;
+  line-height: 34px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px auto;
+    color: #fff;
+}
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /**************************/
+.highlight{
+   padding: 27px 0px;
+}
+
+.inner-image img{
+  width: 30%;
+  top: -52px;
+}
+
+.inner-image h2{
+     font-size: 11px;
+    line-height: 21px;
+}
+
+  /**************************/
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /**************************/
+.highlight{
+  padding: 15px 0px;
+}
+
+.inner-image img{
+  width: 23%;
+  top: -40px;
+}
+
+.inner-image h2{
+     font-size: 11px;
+    line-height: 21px;
+}
+
+  /**************************/
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /**************************/
+.highlight{
+ padding: 30px 0px;
+}
+
+.inner-image img{
+  width: 22%;
+    top: -63px;
+    }
+
+.inner-image h2{
+    font-size: 19px;
+    line-height: 29px;
+}
+
+  /**************************/
+}
+
+
+/*feature start*/
+.feature{
+	width: 100%;
+	padding:80px 0px;
+	}
+	
+
+.feature .feture-box{
+	padding: 70px 80px 175px 80px;
+	box-shadow: 3px 3px 3px 3px #ccc;
+	background: url("../images/bgg.png") bottom right no-repeat;
+	background-size: cover;
+
+}
+
+.feature .feture-box h1{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.feature .feture-box p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #444;
+	padding:15px 0px 35px;
+}
+.feature .feture-box .text{
+  width: 100%;
+  margin-top: 5px;
+}
+.feature .feture-box .percent{
+  font-size: 80px;
+  font-weight: 900;
+  margin-right: 15px;
+  background:-webkit-linear-gradient(12deg, #511de5, #0d89fb);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+}
+
+.feature .feture-box .pi{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /**************************/
+  .feature{
+     width: 100%;
+    padding: 31px;
+  }
+
+  .feature .feture-box{
+    padding: 10px 20px 70px 20px;
+  }
+
+  .feature .feture-box h1{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+  }
+
+  .feature .feture-box p{
+    font-size: 9px;
+    line-height: 15px;
+
+  }
+.feature .feture-box .text{
+    margin-top: 75px;
+    padding-top: 8px;
+}
+  .feature .feture-box .percent{
+    font-size: 39px;
+    margin-right: 3px;
+  }
+
+  .feature .feture-box .pi{
+    font-size: 8px
+
+  }
+
+  /****************************/
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /**************************/
+.feature{
+   
+}
+
+.feature .feture-box{
+  
+}
+
+.feature .feture-box h1{
+     
+}
+
+.feature .feture-box p{
+
+}
+
+.feature .feture-box .percent{
+
+}
+
+.feature .feture-box .pi{
+
+}
+
+/****************************/
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /**************************/
+.feature{
+   
+}
+
+.feature .feture-box{
+  
+}
+
+.feature .feture-box h1{
+     
+}
+
+.feature .feture-box p{
+
+}
+
+.feature .feture-box .percent{
+
+}
+
+.feature .feture-box .pi{
+
+}
+
+/****************************/
+
+}
+
+.client-image{
+  width: 100%;
+  padding: 46px;
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+
+  .client-image {
+    width: 100%;
+    padding: 16px 16px;
+  }
+}
+
+
+/*intro-qute start*/
+
+.intro-quote{
+  width: 100%;
+  padding: 142px 0px;
+  background: url("../images/bg.png") center top no-repeat;
+  background-size: cover;
+}
+
+.intro-quote .quote{
+  width: 107%;
+  background: url(../images/quote.png) center top no-repeat;
+  background-size: cover;
+  padding: 154px 104px;
+  margin-top: 48px;
+}
+
+.intro-quote .quote p{
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  margin-left: 43px;
+}
+
+.intro-quote .quote h5{
+  font-size: 16px;
+  font-weight: 600px;
+  color: #fff;
+  margin-left: 43px;
+}
+
+.intro-quote .quote-text{
+  padding: 20px 0px;
+}
+
+.intro-quote .quote-text h1{
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 900;
+  text-align: left;
+  margin-left: 75px;
+  margin-top: 130px;
+  }
+
+.intro-quote .quote-text .btn-primary{
+  float: left;
+  margin-left: 76px;
+  margin-top: 17px;
+  font-size: 14px;
+  letter-spacing: 5px;
+  color: #252f31;
+  font-weight: 600;
+  padding: 11px 15px 11px 33px;
+  text-transform: uppercase;
+  background: #f2f2f2;
+  border: 0px solid #f2f2f2;
+  border-radius: 25px;
+  transition: 1s;
+  }
+
+  /*intro-qute end*/
+
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /**************************/
+  .intro-quote{
+
+  }
+
+  .intro-quote .quote{
+
+  }
+
+  .intro-quote .quote p{
+
+  }
+
+  .intro-quote .quote h5{
+
+  }
+
+  .intro-quote .quote-text{
+
+  }
+
+  .intro-quote .quote-text h1{
+
+  }
+
+  .intro-quote .quote-text .btn-primary{
+
+  }
+
+  /****************************/
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /**************************/
+  .intro-quote{
+
+  }
+
+  .intro-quote .quote{
+
+  }
+
+  .intro-quote .quote p{
+
+  }
+
+  .intro-quote .quote h5{
+
+  }
+
+  .intro-quote .quote-text{
+
+  }
+
+  .intro-quote .quote-text h1{
+
+  }
+
+  .intro-quote .quote-text .btn-primary{
+    
+  }
+
+/****************************/
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+/**************************/
+  .intro-quote{
+
+  }
+
+  .intro-quote .quote{
+
+  }
+
+  .intro-quote .quote p{
+
+  }
+
+  .intro-quote .quote h5{
+
+  }
+
+  .intro-quote .quote-text{
+
+  }
+
+  .intro-quote .quote-text h1{
+
+  }
+
+  .intro-quote .quote-text .btn-primary{
+    
+  }
+
+/****************************/
+
+}
+
+/*efficency section start*/
+.efficiency{
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.efficiency .inner-efficency h2{
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.efficiency .inner-efficency p{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  padding:15px 0px 35px;
+}
+
+.efficiency .icons .bar{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.efficiency .icons .cloud{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+
+.efficiency .btn .btn-outline-success{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 7px 31px;
+  border-radius: 45px;
+  background: linear-gradient(45deg, #511de5, #0f86fa);
+  transition: 1s;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.efficiency .btn .btn-outline-success:hover, .efficiency .btn .btn-outline-success:focus{
+  color: #000;
+  background: transparent;
+}
+
+.efficiency .btn .fa-long-arrow-right{
+  margin-left: 10px;
+}
+
+/*efficency section end*/
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+   /**************************/
+    .efficiency{
+
+    }
+
+    .efficiency .inner-efficency h2{
+
+    }
+
+    .efficiency .inner-efficency p{
+
+    }
+
+    .efficiency .icons .bar{
+
+    }
+
+    .efficiency .icons .cloud{
+
+    }
+
+    .efficiency .btn .btn-outline-success{
+
+    }
+
+    .efficiency .btn .fa-long-arrow-right{
+
+    }  
+
+
+  /**************************/
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+   /**************************/
+     .efficiency{
+
+    }
+
+    .efficiency .inner-efficency h2{
+
+    }
+
+    .efficiency .inner-efficency p{
+
+    }
+
+    .efficiency .icons .bar{
+
+    }
+
+    .efficiency .icons .cloud{
+
+    }
+
+    .efficiency .btn .btn-outline-success{
+
+    }
+
+    .efficiency .btn .fa-long-arrow-right{
+      
+    }    
+  /**************************/
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  /**************************/
+     .efficiency{
+
+    }
+
+    .efficiency .inner-efficency h2{
+
+    }
+
+    .efficiency .inner-efficency p{
+
+    }
+
+    .efficiency .icons .bar{
+
+    }
+
+    .efficiency .icons .cloud{
+
+    }
+
+    .efficiency .btn .btn-outline-success{
+
+    }
+
+    .efficiency .btn .fa-long-arrow-right{
+      
+    }    
+  /**************************/
+  
+}
+
+/*feedback section start*/
+.feedback{
+  width: 100%;
+  padding: 80px 0px;
+  background: #f2f2f2;
+  text-align: center;
+}
+
+.feedback .design h2{
+  font-size: 53px;
+  line-height: 63px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.feedback .design p{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.feedback .inner-design{
+  width: 100%;
+  padding: 80px 20px 0px 20px;
+  text-align: center;
+}
+
+.feedback .inner-design img{
+  mix-blend-mode: darken;
+
+}
+
+.feedback .inner-design h4{
+  font-size: 20px;
+  font-weight: 800;
+  color: #000;
+  margin: 17px 0px;
+}
+
+.feedback .inner-design p{
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+/*feedback section end*/
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+   /**************************/
+    .feedback{
+
+    }
+
+    .feedback .design h2{
+
+    }
+
+    .feedback .design p{
+
+    }
+
+    .feedback .inner-design{
+
+    }
+
+    .feedback .inner-design img{
+
+    }
+
+    .feedback .inner-design h4{
+
+    }
+
+    .feedback .inner-design p{
+
+    }
+
+  /**************************/
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+   /**************************/
+    .feedback{
+
+    }
+
+    .feedback .design h2{
+
+    }
+
+    .feedback .design p{
+
+    }
+
+    .feedback .inner-design{
+
+    }
+
+    .feedback .inner-design img{
+
+    }
+
+    .feedback .inner-design h4{
+
+    }
+
+    .feedback .inner-design p{
+
+    }   
+  /**************************/
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  /**************************/
+    .feedback{
+
+    }
+
+    .feedback .design h2{
+
+    }
+
+    .feedback .design p{
+
+    }
+
+    .feedback .inner-design{
+
+    }
+
+    .feedback .inner-design img{
+
+    }
+
+    .feedback .inner-design h4{
+
+    }
+
+    .feedback .inner-design p{
+
+    }   
+  /**************************/
+  
+}
+
+
+/*testimonial start */
+
+.testimonial {
+  width: 100%;
+  padding: 80px 0px 60px;
+}
+
+.testimonial .title{
+  width: 100%;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.testimonial .title h2{
+  font-size: 53px;
+  line-height: 63px;
+  font-weight: 900;
+  margin: 10px 0px 45px;  
+}
+
+.testimonial .client-box{
+  width: 100%;
+  padding: 40px 10px;
+  text-align: center;
+  background: url("../images/forbdt.png") center top no-repeat;
+  background-size: cover;
+  border: 1px solid #eee;
+  box-shadow: 1px #f2f2f2;
+  transition: 1s;
+  opacity: .5;
+}
+
+.testimonial .client-box:hover{
+  box-shadow: 1px 4px 10px #ccc;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.testimonial .client-box .top-head{
+  width: 100%;
+  padding: 45px 0px;
+  border-bottom: 1px solid #eee;
+  transition: 1s;
+}
+
+.testimonial .client-box:hover .top-head{
+  border-bottom: 2px solid #ccc;
+}
+
+.testimonial .client-box .top-head h5{
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  color: #777;
+  transition: 1s;
+}
+
+.testimonial .client-box:hover .top-head h5{
+  background:-webkit-linear-gradient(12deg, #511de5, #1977f7);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.testimonial .client-box .client-info{
+  width: 100%;
+  padding: 50px 0px 0px;
+}
+
+.testimonial .client-box .client-info h6 {
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 10px;
+  color: #999999;
+  transition: 1s;
+} 
+
+.testimonial .client-box:hover .client-info h6{
+  color: #000;
+}
+
+.testimonial .client-box .client-info p{
+  font-size: 14px;
+  color: #777;
+  font-weight: 500;
+}
+
+/*testimonial end */
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+   /**************************/
+    
+  /**************************/
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+   /**************************/
+    
+  /**************************/
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  /**************************/
+    
+  /**************************/
+  
+}
+
+
+/*Footer section start*/
+
+.footer{
+  width: 100%;
+  padding: 60px 0px;
+  background: url("../images/fbg.png") center top no-repeat;
+  background-size: cover;
+}
+
+.faq{
+  width: 100%;
+  padding: 0px 251px;
+}
+
+.inner-faq{
+  width: 100%;
+  background: #fff;
+  padding: 80px 40px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+.footer .faq .inner-faq .title h2{
+  font-size: 53px;
+  line-height: 63px;
+  font-weight: 900;
+  padding-bottom: 90px;
+  text-align: center;
+}
+
+.inner-faq .card{
+  background-clip:none;
+  border:none;
+  border-bottom: .5px solid #ccc !important;
+}
+
+.inner-faq .card .card-header {
+  padding: .75rem 1.25rem .75rem 0rem;
+  background-color: transparent;
+  border-bottom: 1px solid #ccc;
+ 
+}
+
+.accordion {
+  overflow-anchor: none;
+  padding: 0px 89px 10px;
+}
+
+.btn-link .focus, .btn-link:focus {
+    text-decoration: none;
+}
+
+.btn .focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.inner-faq .card .card-body {
+  padding: .25rem 1.25rem 1.25rem 1rem;
+  color: #000;
+}
+
+.inner-faq .card .card-header .btn-link {
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+
+.inner-faq .card .card-header .btn-link:hover{
+  color: #0000ff;
+}
+
+.footer .faq .inner-footer1{
+  width: 100%;
+}
+
+.footer .faq .inner-footer1 ul li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  padding: 96px 38px 0px 0px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer .faq .inner-footer2{
+  width: 100%;
+  
+}
+.footer .faq .inner-footer2 h5{
+  font-size: 16px;
+  font-weight: 700;
+  padding: 96px 0px 0px 0px;
+  text-align: left;
+  float: right;
+  color: #fff;
+}
